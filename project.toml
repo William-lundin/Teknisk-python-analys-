@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = " Dag 1" 
+version = "0.1.0"
+description = "lär mig sätta upp en bra pythonstruktur"
+readme= "README.md"
+requires-python = ">=3.11"
+dependencies = [
+"numpy"
+"pandas"
+"matplotlib"
+"yfinance"
+"pytest"
+]
+[project.optional-dependencies]
+dev=[]
